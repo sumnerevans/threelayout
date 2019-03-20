@@ -30,20 +30,20 @@ xkb_symbols "basic" {
         [ 2,                       section,                 twosuperior,             twosubscript,          NoSymbol,              NoSymbol              ]
     };
     key <AE03> {
-        [ 3,                       U2113,                   threesuperior,           threesubscript,        NoSymbol,              NoSymbol              ]
+        [ 3,                       U2113,                   threesuperior,           Greek_xi,              NoSymbol,              NoSymbol              ]
     };
     key <AE04> {
-        [ 4,                       guillemotright,          U203A,                   femalesymbol,          NoSymbol,              NoSymbol              ]
+        [ 4,                       dollar,                  NoSymbol,                cent,                  NoSymbol,              NoSymbol              ]
     };
     key <AE05> {
-        [ 5,                       guillemotleft,           U2039,                   malesymbol,            NoSymbol,              NoSymbol              ]
+        [ 5,                       U00A3,                   NoSymbol,                EuroSign,              NoSymbol,              NoSymbol              ]
     };
     key <AE06> {
-        [ 6,                       dollar,                  cent,                    U26A5,                 NoSymbol,              NoSymbol              ]
+        [ 6,                       yen,                     NoSymbol,                Greek_DELTA,           NoSymbol,              NoSymbol              ]
     };
 
     key <AE07> {
-        [ 7,                       EuroSign,                yen,                     U03F0,                 NoSymbol,              NoSymbol              ]
+        [ 7,                       NoSymbol,                NoSymbol,                U03F0,                 NoSymbol,              NoSymbol              ]
     };
     key <AE08> {
         [ 8,                       doublelowquotemark,      singlelowquotemark,      U27E8,                 NoSymbol,              NoSymbol              ]
@@ -52,14 +52,14 @@ xkb_symbols "basic" {
         [ 9,                       leftdoublequotemark,     leftsinglequotemark,     U27E9,                 NoSymbol,              NoSymbol              ]
     };
     key <AE10> {
-        [ 0,                       rightdoublequotemark,    rightsinglequotemark,    zerosubscript,         NoSymbol,              NoSymbol              ]
+        [ 0,                       rightdoublequotemark,    rightsinglequotemark,    Greek_theta,           NoSymbol,              NoSymbol              ]
     };
 
     key <AE11> {
-        [ equal,                   less,                    NoSymbol,                U2011,                 NoSymbol,              NoSymbol              ]
+        [ minus,                   underscore,              NoSymbol,                U2011,                 NoSymbol,              NoSymbol              ]
     };
     key <AE12> {
-        [ underscore,              greater,                 dead_abovering,          dead_dasia,            NoSymbol,              NoSymbol              ]
+        [ equal,                   plus,                    NoSymbol,                Greek_SIGMA,           NoSymbol,              NoSymbol              ]
     };
 
     // Top row
@@ -69,31 +69,31 @@ xkb_symbols "basic" {
         [ q,                       Q,                       quotedbl,                Greek_xi,              Prior,                   NoSymbol            ]
     };
     key <AD02> {
-        [ f,                       F,                       underscore,              NoSymbol,              BackSpace,               NoSymbol            ]
+        [ f,                       F,                       underscore,              Greek_phi,             BackSpace,               NoSymbol            ]
     };
     key <AD03> {
-        [ u,                       U,                       bracketleft,             Greek_lambda,          Up,                      Up                  ]
+        [ u,                       U,                       bracketleft,             Greek_upsilon,         Up,                      Up                  ]
     };
     key <AD04> {
-        [ y,                       Y,                       bracketright,            Greek_chi,             Delete,                  NoSymbol            ]
+        [ y,                       Y,                       bracketright,            NoSymbol,              Delete,                  NoSymbol            ]
     };
     key <AD05> {
-        [ z,                       Z,                       asciicircum,             Greek_omega,           Next,                    NoSymbol            ]
+        [ z,                       Z,                       asciicircum,             Greek_zeta,            Next,                    NoSymbol            ]
     };
     key <AD06> {
-        [ x,                       X,                       exclam,                  Greek_kappa,           NoSymbol,                NoSymbol            ]
+        [ x,                       X,                       exclam,                  Greek_chi,             NoSymbol,                NoSymbol            ]
     };
     key <AD07> {
-        [ k,                       K,                       less,                    Greek_psi,             1,                       NoSymbol            ]
+        [ k,                       K,                       less,                    Greek_kappa,           1,                       NoSymbol            ]
     };
     key <AD08> {
-        [ c,                       C,                       greater,                 Greek_gamma,           2,                       NoSymbol            ]
+        [ c,                       C,                       greater,                 NoSymbol,              2,                       NoSymbol            ]
     };
     key <AD09> {
-        [ w,                       W,                       equal,                   Greek_phi,             3,                       NoSymbol            ]
+        [ w,                       W,                       equal,                   Greek_psi,             3,                       NoSymbol            ]
     };
     key <AD10> {
-        [ b,                       B,                       ampersand,               U03D5,                 NoSymbol,                NoSymbol            ]
+        [ b,                       B,                       ampersand,               Greek_beta,            NoSymbol,                NoSymbol            ]
     };
 
     key.type[Group1] = "FOUR_LEVEL";
@@ -115,34 +115,34 @@ xkb_symbols "basic" {
 
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
     key <AC01> {
-        [ o,                       O,                       slash,                   NoSymbol,              Home,                    Home                ]
+        [ o,                       O,                       slash,                   Greek_omega,           Home,                    Home                ]
     };
     key <AC02> {
-        [ h,                       H,                       minus,                   Greek_iota,            Left,                    Left                ]
+        [ h,                       H,                       minus,                   Greek_eta,             Left,                    Left                ]
     };
     key <AC03> {
-        [ e,                       E,                       braceleft,               Greek_alpha,           Down,                    Down                ]
+        [ e,                       E,                       braceleft,               Greek_epsilon,         Down,                    Down                ]
     };
     key <AC04> {
-        [ a,                       A,                       braceright,              Greek_epsilon,         Right,                   Right               ]
+        [ a,                       A,                       braceright,              Greek_alpha,           Right,                   Right               ]
     };
     key <AC05> {
-        [ i,                       I,                       asterisk,                Greek_omicron,         End,                     End                 ]
+        [ i,                       I,                       asterisk,                Greek_iota,            End,                     End                 ]
     };
     key <AC06> {
-        [ d,                       D,                       question,                Greek_sigma,           period,                  NoSymbol            ]
+        [ d,                       D,                       question,                Greek_delta,           period,                  NoSymbol            ]
     };
     key <AC07> {
-        [ r,                       R,                       parenleft,               Greek_nu,              4,                       NoSymbol            ]
+        [ r,                       R,                       parenleft,               Greek_rho,             4,                       NoSymbol            ]
     };
     key <AC08> {
-        [ t,                       T,                       parenright,              Greek_rho,             5,                       NoSymbol            ]
+        [ t,                       T,                       parenright,              Greek_tau,             5,                       NoSymbol            ]
     };
     key <AC09> {
-        [ n,                       N,                       apostrophe,              Greek_tau,             6,                       NoSymbol            ]
+        [ n,                       N,                       apostrophe,              Greek_nu,              6,                       NoSymbol            ]
     };
     key <AC10> {
-        [ s,                       S,                       colon,                   Greek_delta,           Escape,                  NoSymbol            ]
+        [ s,                       S,                       colon,                   Greek_sigma,           Escape,                  NoSymbol            ]
     };
 
     key <AC11> {
@@ -156,37 +156,37 @@ xkb_symbols "basic" {
     key <AB01> {
         [ comma,                   exclam,                  numbersign,              NoSymbol,              comma,                   NoSymbol            ]
     };
-    
+
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
     key <AB02> {
-        [ m,                       M,                       dollar,                  U03F5,                 NoSymbol,                NoSymbol            ]
+        [ m,                       M,                       dollar,                  Greek_mu,              NoSymbol,                NoSymbol            ]
     };
     key <AB03> {
-        [ period,                  NoSymbol,                bar,                     Greek_eta,             bracketleft,             NoSymbol            ]
+        [ period,                  NoSymbol,                bar,                     NoSymbol,              bracketleft,             NoSymbol            ]
     };
     key <AB04> {
-        [ j,                       J,                       asciitilde,              Greek_pi,              bracketright,            NoSymbol            ]
+        [ j,                       J,                       asciitilde,              NoSymbol,              bracketright,            NoSymbol            ]
     };
-    
+
     key.type[Group1] = "EIGHT_LEVEL";
     key <AB05> {
-        [ semicolon,               semicolon,               grave,                   Greek_zeta,            NoSymbol,                NoSymbol            ]
+        [ semicolon,               semicolon,               grave,                   NoSymbol,              NoSymbol,                NoSymbol            ]
     };
-    
+
     key.type[Group1] = "EIGHT_LEVEL_SEMIALPHABETIC";
     key <AB06> {
-        [ g,                       G,                       plus,                    Greek_beta,            0,                       NoSymbol            ]
+        [ g,                       G,                       plus,                    Greek_gamma,           0,                       NoSymbol            ]
     };
     key <AB07> {
-        [ l,                       L,                       percent,                 Greek_mu,              7,                       NoSymbol            ]
+        [ l,                       L,                       percent,                 Greek_lambda,          7,                       NoSymbol            ]
     };
     key <AB08> {
-        [ p,                       P,                       backslash,               Greek_beta,            8,                       NoSymbol            ]
+        [ p,                       P,                       backslash,               Greek_pi,              8,                       NoSymbol            ]
     };
 
     key.type[Group1] = "EIGHT_LEVEL";
     key <AB09> {
-        [ v,                       V,                       at,                      Greek_mu,              9,                       NoSymbol            ]
+        [ v,                       V,                       at,                      NoSymbol,              9,                       NoSymbol            ]
     };
 
     key <AB10> {
